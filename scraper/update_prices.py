@@ -23,6 +23,7 @@ from providers import anthropic as anthropic_provider
 from providers import google as google_provider
 from providers import mistral as mistral_provider
 from providers import deepseek as deepseek_provider
+from providers import sandbase as sandbase_provider
 from providers import together as together_provider
 from providers import xai as xai_provider
 from providers import groq as groq_provider
@@ -35,6 +36,7 @@ PROVIDERS = {
     "google": google_provider,
     "mistral": mistral_provider,
     "deepseek": deepseek_provider,
+    "sandbase": sandbase_provider,
     "meta": together_provider,
     "xai": xai_provider,
     "groq": groq_provider,

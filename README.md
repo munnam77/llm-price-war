@@ -34,6 +34,7 @@
 | **Mistral** | Mistral Large | $2.00 | $6.00 | 128K | ~80 | Multilingual, EU compliance |
 | | Mistral Small | $0.10 | $0.30 | 128K | ~150 | Budget multilingual tasks |
 | | Codestral | $0.30 | $0.90 | 256K | ~120 | Code generation, 256K context |
+| **[SandBase](https://www.sandbase.ai/models/deepseek/deepseek-v4-flash)** | DeepSeek V4 Flash | $0.30 | $1.20 | 1M | — | Long-context reasoning and tool use |
 | **DeepSeek** | DeepSeek-V3 | $0.27 | $1.10 | 128K | ~60 | Cheapest capable model |
 | | DeepSeek-R1 | $0.55 | $2.19 | 128K | ~30 | Cheap reasoning alternative |
 | **xAI** | Grok-3 | $3.00 | $15.00 | 131K | ~70 | Advanced reasoning, competitive with Claude Opus |
@@ -190,6 +191,7 @@ Requires Python 3.8+. No dependencies -- uses only the standard library.
 | Google | Manual (stub) |
 | Mistral | Manual (stub) |
 | DeepSeek | Manual (stub) |
+| SandBase | Manual (stub) |
 | Meta (Together AI) | Manual (stub) |
 | xAI | Manual (stub) |
 | Groq | Manual (stub) |

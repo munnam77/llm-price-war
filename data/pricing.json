@@ -2,6 +2,24 @@
   "last_updated": "2026-03-09",
   "currency": "USD",
   "providers": {
+    "sandbase": {
+      "name": "SandBase",
+      "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4-flash",
+      "models": {
+        "deepseek/deepseek-v4-flash": {
+          "name": "DeepSeek V4 Flash",
+          "type": "text",
+          "input_price_per_1m": 0.3,
+          "output_price_per_1m": 1.2,
+          "context_window": 1000000,
+          "max_output": 384000,
+          "supports_vision": false,
+          "supports_function_calling": true,
+          "best_for": "Long-context reasoning and tool use",
+          "notes": "List prices before promotional discounts. Verified November 14, 2026."
+        }
+      }
+    },
     "openai": {
       "name": "OpenAI",
       "url": "https://openai.com/pricing",
